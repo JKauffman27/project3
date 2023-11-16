@@ -3,7 +3,7 @@ function init(){
   var myLocation = new google.maps.LatLng(41.69831427014762, -86.1770177669686);
   
   var mapOptions = {
-    center = myLocation,
+    center: myLocation,
 	zoom: 18,
 	mapTypeId: google.maps.MapTypeId.SATELLITE,
 	mapTypeControlOptions: {
