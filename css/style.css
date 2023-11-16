@@ -159,3 +159,30 @@ section img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+#map_body {
+  background-image: url("../images/solarsystem.png");
+}
+
+#wrapper {
+  width: 800px;
+  height: 600px;
+  background-color: black;
+  margin: 45px auto;
+}
+
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: black;
+  margin: 45px auto;
+}
+
+#maptitle {
+  color: gray;
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 40px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+}
