@@ -17,7 +17,7 @@ function init(){
 	position: myLocation,
 	map: myMap,
 	animation: google.maps.Animation.DROP,
-	icon: 'images/skateboard.png'
+	icon: 'images/rollerskate.png'
   });
   
   var contentString = '<h1>USA Skate Roller Ring</h1><p>USA Skate Roller Ring was a fun family roller ring that was open until it shut down in 2016. It now stands abandoned until further notice.</p>';
