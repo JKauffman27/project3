@@ -38,8 +38,13 @@ body {
 }
 
 section {
-  margin-bottom: 20px;
-  margin-top: 30px;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 nav ul {
@@ -68,6 +73,13 @@ nav ul li a:hover {
 h1, h2, h3 {
   font-family: 'Tilt Neon', sans-serif;
 }
+
+section img,
+section iframe {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 100%;
 
 section p,
 section iframe,
@@ -127,6 +139,7 @@ section img {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
+  max-width: 100%
 }
 
 #hotline iframe,
@@ -148,6 +161,7 @@ section img {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 #oceans11 iframe,
@@ -185,4 +199,21 @@ section img {
   border-radius: 10px;
   padding-bottom: 40px;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+
+  section {
+	padding: 10px;
+  }
+
+  #wrapper {
+	width: 100%;
+	margin: 20px auto;
+  }
+  
+  #canvas {
+	width: 100%;
+	margin: 20px auto;
+  }
 }
