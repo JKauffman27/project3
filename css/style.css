@@ -9,6 +9,11 @@ body {
   font-size: 120%;
 }
 
+section {
+  margin: 0 auto;
+  text-align: left;
+}
+
 #games {
   background-color : #e96851;
 }
@@ -69,7 +74,7 @@ h1, h2, h3 {
   font-family: 'Tilt Neon', sans-serif;
 }
 
-section p,
+section p
 section iframe,
 section img {
   text-align: center;
@@ -83,8 +88,8 @@ section img {
 #experience h4,
 #skills,
 #volunteer-work {
-  padding: 1em;
-  display: inline-block; 
+  width: 70%
+  margin: 0 auto;
   text-align: center;
   border: 1px solid #ddd;
   padding: 10px;
@@ -160,6 +165,7 @@ section img {
   margin-bottom: 10px;
 }
 
+/* Map stuff */
 #map_page {
   background-image: url("../images/solarsystem.png");
 }
