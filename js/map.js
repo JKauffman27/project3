@@ -1,4 +1,4 @@
-function init(){
+function initMap(){
   var el = document.getElementById('canvas');
   var myLocation = new google.maps.LatLng(41.697090340656615, -86.18278845486563);
   
@@ -32,4 +32,4 @@ function init(){
   
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
