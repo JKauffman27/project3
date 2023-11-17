@@ -206,14 +206,4 @@ section img {
   section {
 	padding: 10px;
   }
-
-  #wrapper {
-	width: 100%;
-	margin: 20px auto;
-  }
-  
-  #canvas {
-	width: 100%;
-	margin: 20px auto;
-  }
 }
