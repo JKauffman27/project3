@@ -81,11 +81,10 @@ section iframe {
   margin-bottom: 10px;
   max-width: 100%;
 
-section p,
-section iframe,
-section img {
-  text-align: center;
+section p {
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 /* Resume-specific styles */
