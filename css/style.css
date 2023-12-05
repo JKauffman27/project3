@@ -193,9 +193,9 @@ section img {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
-	font-size: 100%;
+	font-size: 16;
   }
   
   section {
@@ -212,4 +212,49 @@ section img {
 	width: 100%;
   }
   
+  #maptitle {
+    font-size: 30px; 
+  }
+
+  #wrapper {
+    width: 90%; 
+    margin: 20px auto; 
+  }
+
+  #canvas {
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+	font-size: 18px;
+  }
+  
+  section {
+	margin: 10px;
+  }
+  
+  nav ul li {
+	display: block;
+	margin: 10px 0;
+  }
+  
+  nav ul li a {
+	display: block;
+	width: 100%;
+  }
+  
+  #maptitle {
+    font-size: 30px; 
+  }
+
+  #wrapper {
+    width: 90%; 
+    margin: 20px auto; 
+  }
+
+  #canvas {
+    width: 100%; 
+  }
 }
