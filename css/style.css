@@ -195,7 +195,7 @@ section img {
 
 @media screen and (max-width: 600px) {
   body {
-	font-size: 16;
+	font-size: 16px;
   }
   
   section {
